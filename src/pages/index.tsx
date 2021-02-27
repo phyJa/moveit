@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { CompletedChallenges } from "../Components/CompletedChallenges";
 import { Countdown } from "../Components/Countdown";
 import { ExperienceBar } from "../Components/ExperienceBar";
@@ -7,6 +8,9 @@ import styles from "../styles/pages/Home.module.css";
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Início | Moveit</title>
+      </Head>
       <ExperienceBar></ExperienceBar>
       <section>
         <div>
