@@ -1,16 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Logo move.it](./public/logo-full.svg)
 
-## Getting Started
+Olá, seja bem-vindo(a)! Este é um projeto desenvolvido em React.JS e em Next.JS na quarta edição do evento Next Level Week da Rocketseat.
 
-First, run the development server:
+O [move.it]() é uma aplicação que visa à preservação da saúde das pessoas, principalmente das que trabalham muito tempo em frente ao computador. O princípio de funcionamento é baseada na [Técnica Pomodoro](https://pt.wikipedia.org/wiki/T%C3%A9cnica_pomodoro), mas com alguns diferenciais como propor desafios ao longo dos intervalos de descanso e um sistema de pontuação conforme o usuário completa os desafios.
 
-```bash
-npm run dev
-# or
-yarn dev
+## Como fazer a aplicação funcionar
+
+O primeiro passo é escolher uma pasta de seu computador e abrir terminal para executar o comando
+
+```sh
+git clone "https://github.com/phyJa/moveit.git"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Isso baixará a estrutura principal do projeto na sua pasta local, mas não as dependências de terceiros.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
