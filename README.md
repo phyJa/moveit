@@ -1,8 +1,8 @@
-<div style="text-align: center">
+<p align="center">
 
-![Logo move.it](./public/logo-full.svg)
+<img src="public/logo-full.svg" alt="Logo move.it" />
 
-</div>
+</p>
 
 Olá, seja bem-vindo(a)! Este é um projeto desenvolvido em React.JS e em Next.JS na quarta edição do evento Next Level Week da Rocketseat.
 
