@@ -29,6 +29,13 @@ O primeiro passo é escolher uma pasta de seu computador e abrir terminal para e
 git clone "https://github.com/phyJa/moveit.git"
 ```
 
+<p align="center">
+
+<img src="./public/imagesForReadMe/gitClone.gif" alt="Executando git clone" />
+
+</p>
+
+
 Isso baixará a estrutura principal do projeto na sua pasta local, mas não as dependências de terceiros (sem as quais a aplicação não funciona). Para instalá-las, execute também no terminal
 
 ```sh
@@ -41,7 +48,13 @@ caso a preferência seja o yarn. Para o npm, apague o arquivo `yarn.lock` e exec
 npm install
 ```
 
-Dessa forma, o gerenciador escolhido instala tudo o que for necessário para a aplicação funcionar.
+Dessa forma, o gerenciador escolhido instala tudo o que for necessário para a aplicação funcionar. Repare que para o gif, foi escolhido o gerenciador `npm`:
+
+<p align="center">
+
+<img src="./public/imagesForReadMe/npmInstall.gif" alt="Npm install gif" />
+
+</p>
 
 ### Funcionamento
 
@@ -57,6 +70,12 @@ npm run dev
 ```
 
 se o npm foi a sua escolha. O servidor iniciará o carregamento da aplicação na porta 3000. Assim, basta abrir seu navegador e digitar na barra de endereço `localhost:3000`.
+
+<p align="center">
+
+<img src="./public/imagesForReadMe/runDevAndApp.gif" alt="Npm install gif" />
+
+</p>
 
 
 ## Versão publicada (deploy)
